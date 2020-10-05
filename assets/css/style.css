@@ -3,3 +3,52 @@
     width: 350px;
     padding-right: 1em;
 }
+
+.buddies {
+    float: right;
+    width: 250px;
+    padding-right: 1em;
+}
+
+.col {
+    float:left ;
+    padding: 5px;
+}
+
+.ladylove {
+    width: 250px;
+    padding: 50px;
+}
+
+.bear {
+    width: 250px;
+    padding: 50px;
+}
+
+.camping {
+    width: 250px;
+    padding: 50px;
+}
+
+.links:visited {
+    color: purple;
+}
+
+.links:hover {
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.facebook {
+    height: 20px;
+    width: 20px;
+}
+
+.linkedin {
+    height: 20px;
+    width: 20px;
+}
+
