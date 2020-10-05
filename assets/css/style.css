@@ -52,3 +52,7 @@ ul {
     width: 20px;
 }
 
+body {
+    background-color: rgba(71, 69, 69, 0.158);
+    margin: auto;
+}
