@@ -1,0 +1,13 @@
+li {
+    color: purple;
+}
+
+a:visited {
+    color: purple;
+}
+
+.floated {
+    float: left;
+    width: 350px;
+    padding-right: 1em;
+}
