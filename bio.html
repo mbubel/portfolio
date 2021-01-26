@@ -1,13 +1,119 @@
 <!DOCTYPE html>
 <head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    crossorigin="anonymous"
+  />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+<title>Biography</title>
 <body>
-  <div class="container" id="bio">
-    <div class="row">
-      <div class="col">
-        <img src="/assets/images/bio-image.jpg" alt="Bio Image" id="bio-image"/>
+  <img src="/assets/images/bio-image.jpg" alt="Bio Image" id="bio-image" />
+
+  <div class="row">
+    <div class="col-sm-3" id="bio-text">
+      <p>
+        Born and raised in San Diego, I grew up spending most of my time
+        skateboarding, playing guitar, and video games. Now that I'm adult,
+        you'll most likely find me at a local bar, or still behind the computer.
+      </p>
+      <div class="col-sm">
+        <p>
+          A proud pet parent, our menegerie consists of three cats: Zero, Gambit
+          and Rogue, and a 2 year old English Mastiff named Bear.
+        </p>
+      </div>
+
+      <div class="col-sm">
+        <p>
+          When not behind a computer, I enjoy a good campsite with my pals, and
+          a cold beer.
+        </p>
       </div>
     </div>
   </div>
+  
+  <div class="carousel">
+    <button class="carousel__button carousel__button--left is-hidden">
+      <img src="assets/images/left-arrow.svg" alt="" />
+    </button>
+
+    <div class="carousel__track-container">
+      <ul class="carousel__track">
+        <li class="carousel__slide current-slide">
+          <img
+            class="carousel__image"
+            id="ladylove"
+            src="/assets/images/ladylove.jpg"
+            alt=""
+          />
+        </li>
+        <li class="carousel__slide">
+          <img
+            class="carousel__image"
+            src="/assets/images/buddies.jpg"
+            alt=""
+          />
+        </li>
+        <li class="carousel__slide">
+          <img
+            class="carousel__image"
+            src="/assets/images/BearBear.jpg"
+            alt=""
+          />
+        </li>
+      </ul>
+    </div>
+
+    <button class="carousel__button carousel__button--right">
+      <img src="assets/images/right-arrow.svg" alt="" />
+    </button>
+    <div class="carousel__nav">
+      <button class="carousel__indicator current-slide"></button>
+      <button class="carousel__indicator"></button>
+      <button class="carousel__indicator"></button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="com-sm-3">
+        <img
+          src="./assets/images/Facebook-icon-1.png"
+          class="card-img-top facebook"
+        /><a class="links" href="https://www.facebook.com/heyitsmichaelbubel">
+          Facebook</a
+        >
+
+        <img
+          src="./assets/images/Linkedin.png"
+          class="card-img-top linkedin"
+        /><a
+          class="links"
+          href="https://www.linkedin.com/in/michael-bubel-b95268155/"
+        >
+          Linkedin</a
+        >
+
+        <img
+          src="./assets/images/GitHub-Mark.png"
+          class="card-img-top github"
+        /><a class="links" href="https://github.com/mbubel"> GitHub</a>
+      </div>
+    </div>
+    <div class="row" id="resume">
+      <div class="col-sm-12">
+        <a
+          class="links"
+          href="https://drive.google.com/file/d/1bVn-607BJAn7uCcHLKKJvcf-RCblEkwZ/view?usp=sharing"
+          >Resume</a
+        >
+        | <a class="links" href="index.html">Home</a> |
+        <a class="links" href="portfolio.html">Portfolio</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/carousel.js"></script>
 </body>
