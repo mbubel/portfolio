@@ -1,7 +1,7 @@
 
 
 #background {
-    margin-top: 5%;
+
     background-color: rgb(87, 73, 73);
 
 }
@@ -13,50 +13,11 @@ text-align: center;
 text-align: center;
 }
 
-/* .floated {
-    float: left;
-    width: 350px;
-    padding-right: 1em;
+#bio {
+    color: red;
+    text-align: center;
 }
 
-.buddies {
-    float: right;
-    width: 250px;
-    padding-right: 1em;
-}
-
-.col {
-    float:left ;
-    padding: 5px;
-}
-
-.ladylove {
-    width: 250px;
-    padding: 50px;
-}
-
-.bear {
-    width: 250px;
-    padding: 50px;
-}
-
-.camping {
-    width: 250px;
-    padding: 50px;
-}
-
-.links:visited {
-    color: purple;
-}
-
-.links:hover {
-    color: gray;
-}
-
-ul {
-    list-style-type: none;
-}
-*/
 
 .facebook {
     height: 20px;
@@ -82,4 +43,10 @@ body {
 }
 h1 {
     font-size: large;
-} */
+} 
+
+#bio-image {
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+}
